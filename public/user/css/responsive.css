@@ -1,0 +1,244 @@
+@media only screen and (min-width: 1024px) {}
+
+@media only screen and (max-width: 1023px) {
+    .desc1,
+    .desc {
+        margin: 25px 0px 25px 0px;
+        height: auto;
+        -webkit-line-clamp: unset;
+    }
+
+    .read-more {
+        position: relative;
+    }
+    .magazine-right-details,
+    .megazine-details-front,
+    .magazine-right,
+    .megazine-front{
+        height:auto;
+        margin-bottom:25px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1024px) {
+    .navbar-fixed-top {
+        padding: 0px 30px;
+    }
+    .wings {
+        padding: 50px 25px;
+    }
+    .megazine-details-front,
+    .magazine-right-details{
+        height: 410px;
+    }
+    .megazine-front,
+    .magazine-right{
+        height: 300px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .wings {
+    height:calc(100vh - 116px);
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+}
+@media only screen and (min-width: 1600px) {
+.details-page .col-md-4{
+    width:28%;
+}
+.details-page .col-md-8{
+    width:72%;
+}
+}
+@media only screen and (min-width: 1440px) and (max-width: 1440px) {
+    .megazine-details-front,
+    .magazine-right-details{
+    height: 565px;
+}
+
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1280px) {
+    .megazine-details-front,
+    .magazine-right-details{
+        height: 480px;
+    }
+    .megazine-front,
+    .magazine-right{
+        height: 350px;
+    }
+}
+
+@media screen and (min-width:1900px){
+    .megazine-front {
+        height: 565px !important;
+    }
+
+    .magazine-right {
+        height: 565px !important;
+    }
+    .megazine-details-front,.magazine-right-details {
+     height:auto !important;
+}
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {}
+
+@media (max-width: 767px) {
+    .navbar-fixed-top {
+        padding: 0px 5px;
+    }
+
+    .navbar-brand {
+        width: 100%;
+    }
+
+    .wings {
+        margin-top: 70px;
+        padding: 45px 15px;
+    }
+
+    .newsleter {
+        font-size: 13px;
+    }
+
+    .heading-text {
+        margin-top: 10px;
+    }
+
+    .e-magazine-list li {
+        width: 48%;
+    }
+
+    footer {
+        padding: 10px 5px;
+    }
+
+    .box {
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 375px) {}
+
+@media only screen and (min-width: 384px) and (max-width: 384px),
+only screen and (min-width: 800px) and (max-width: 800px),
+only screen and (min-width: 412px) and (max-width: 414px),
+    {
+    @media (max-width: 767px) .wings {
+        margin-top: 105px;
+        padding: 50px 20px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 600px) {
+    .navbar-brand {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .wings {
+        padding: 30px 5px;
+    }
+
+    .desc1,
+    .desc {
+        font-size: 13px;
+    }
+
+    .e-magazine-list li {
+        width: 47%;
+    }
+
+    .read-more {
+        padding: 8px 20px;
+    }
+
+}
+
+/* iPad Mini in landscape only */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .desc {
+        margin: 25px 0px 60px 0px;
+        height: 63px;
+    }
+
+    .e-magazine-list li {
+        margin: 20px 1px 0px 1px;
+    }
+
+    .desc1 {
+        margin: 25px 0px 87px 0px;
+        /*height: 140px;*/
+        height:auto;
+        -webkit-line-clamp: unset;
+    }
+
+    .read-more {
+        padding: 5px 20px;
+    }
+}
+
+/* iPad Mini in portrait only */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+    .wings {
+        margin-top: 70px;
+        padding: 60px 60px;
+    }
+
+    .newsleter {
+        font-size: 18px;
+    }
+
+    .read-more {
+        position: relative;
+    }
+
+    .desc,
+    .desc1 {
+        font-size: 18px;
+        margin: 25px 0px 45px 0px;
+        height: auto;
+        -webkit-line-clamp: unset;
+    }
+
+    .sub-span {
+        font-size: 20px;
+    }
+
+    .e-magazine-list li {
+        width: 32%;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
+    .box {
+        margin: 25px 0px;
+    }
+}
+
+
+/*iPhone X in portrait & landscape*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {}
+
+/*iPhone 6, 7, & 8 in portrait & landscape*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {}
+
+/*iPhone 6, 7, & 8 Plus in portrait & landscape*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {}
+
+/*iPhone 5 & 5S in portrait & landscape*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {}
+
+/*iPhone 2G-4S in portrait & landscape*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {}
+
+/*Only iPhone 4/4S (both: landscape and portrait)*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {}
